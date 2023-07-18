@@ -1,0 +1,8 @@
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-menus ul{
+        flex-direction: column;
+    }
+}
