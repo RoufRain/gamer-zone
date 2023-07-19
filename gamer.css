@@ -139,11 +139,13 @@ background: #4EC5F7;
 
 }
 
-/* online secion design */
+
+
+/* online section design */
 .online-game-container{
     display: grid;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 .games-heading h4{
     color: #0B0223;
@@ -227,7 +229,7 @@ font-weight: 600;
     opacity: 0.8;
   }
 
-/* play instantly section */
+/*----------------------------------- play instantly section */
 .play-instantly{
     display: flex;
     max-width: 1200px;
@@ -263,7 +265,8 @@ background-clip: text;
 }
 .play-instantly-image-container image{
     height:600px;
-    width: 550px; 
+    width: 550px;
+    position: absolute; 
 }
 .play-instantly-image-container .small-image{
     width: 300px;
@@ -307,13 +310,14 @@ font-weight: 500;
     padding: 10px 0px;
 }
 .games-type :hover{
+    position: static;
     border: 1px solid  #FF42A5;
     border-radius: 50px;
     color: #FF42A5; 
 }
 
 
-/* footer section design */
+/*--------------------------- footer section design */
 
 footer{
     background: #0B0223;
