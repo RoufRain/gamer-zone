@@ -1,3 +1,5 @@
+
+/* for mobile devices */
 @media screen and (max-width: 576px) {
     .nav-container{
         flex-direction: column;
@@ -5,4 +7,47 @@
     .nav-menus ul{
         flex-direction: column;
     }
+
+    /* -----------------for banner section */
+    .banner-container{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .banner-text{
+        width: 80%;
+        margin: 0 auto;
+        padding-left: 30px;
+    }
+    .banner-image{
+        width: 80%;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .games-heading{
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .games-picture{
+        width: 100%;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+    .games-picture img{
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+   .games-picture p{
+    /* width: 80%; */
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+    }
 }
+
+
+/* for tablet or medium screen */

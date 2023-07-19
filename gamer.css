@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+
 body{
     font-family: 'Work Sans', sans-serif;
 }
 
 /* nav style start here */
 nav{
-    width: 100%;
+    /* width: 100%; */
     background: #FFF;
 box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
@@ -64,3 +65,126 @@ li a{
     height: 50px;
     align-items: center;
 }
+
+/*---------------------------- banner section style */
+.banner-container{
+    
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+.banner-text{
+    background-image: url("images/Group 14.png");
+    width: 50%;
+    align-content: center;
+    padding-left: 30px;
+}
+.banner-text li{
+    list-style: none;
+}
+.banner-image{
+    width: 50%;
+}
+
+.banner-image img{
+    width: 100%;
+}
+
+.play-text{
+    color: #0B0223;
+font-size: 40px;
+font-weight: 600;
+}
+.banner-container .goat-text{
+font-size: 70px;
+font-weight: 700;
+
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.list-icon-container{
+    align-items: center;
+}
+.list-icon{
+color: #534C64;
+/* text-align: center; */
+font-size: 20px;
+font-weight: 500;
+margin-bottom: 3px;
+}
+.btn-container{
+    margin-top: 20px;
+    display: flex; 
+    gap: 20px;
+}
+.sign-in-btn{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+padding: 10px 20px;
+border-radius: 48px;
+background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.gorouge-btn{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+padding: 10px 20px;
+border-radius: 48px;
+background: #4EC5F7;
+
+}
+
+/* online secion design */
+.online-game-container{
+    display: grid;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.games-heading h4{
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+}
+.games-heading p{
+    color: #534C64;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+
+
+.funny-video{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+font-size: 48px;
+
+font-weight: 700;
+}
+
+.games-picture{
+    /* width: 30%; */
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    /* grid-template-columns: repeat(4, 1fr); */
+}
+.games-picture img{
+    width: 290px;
+    height: 350px;
+
+}
+.games-picture p{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+}
+
