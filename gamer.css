@@ -187,7 +187,7 @@ font-weight: 700;
 font-size: 20px;
 font-weight: 500;
 }
-/* bonus section hover */
+/* ----------------bonus section hover */
 
 .play-button-container{
     position: relative;
@@ -226,6 +226,94 @@ font-weight: 600;
   .play-button-container:hover .main-image {
     opacity: 0.8;
   }
+
+/* play instantly section */
+.play-instantly{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 50px;
+    align-items: center;
+}
+.play-instantly-text-container{
+width: 50%;
+padding: 50px 50px 200px 50px;
+margin-right: 50px;
+}
+.play-instantly-text-container h3{
+    text-align: right;
+font-size: 48px;
+font-weight: 700;
+}
+.play-instantly-text-container p{
+    color: #534C64;
+text-align: right;
+font-size: 18px;
+font-weight: 400;
+}
+.play-instantly-text-contain .color-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;   
+}
+
+.play-instantly-image-container{
+    width: 50%;
+}
+.play-instantly-image-container image{
+    height:600px;
+    width: 550px; 
+}
+.play-instantly-image-container .small-image{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    bottom: 300px;
+    right: 120px;
+}
+
+/* games type section design */
+.games-type-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.games-type{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 300px;
+    gap: 10px;
+    flex-basis: 220px;
+    padding: 20px 0px;
+}
+.games-type img{
+    height: 50px;
+    width: 50px;
+}
+.games-type p{
+font-size: 12px;
+font-weight: 500;
+
+}
+.type{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0px;
+}
+.style-text{
+    width: 100%;
+    border: 1px solid  #FF42A5;
+    border-radius: 50px;
+}
+.style-text p{
+ color: #FF42A5;   
+}
 
   
 
