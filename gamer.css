@@ -77,12 +77,23 @@ li a{
 }
 .banner-text{
     background-image: url("images/Group 14.png");
-    width: 50%;
+    background-size:90% 100%;
+    background-repeat: no-repeat;
+    /* width: 50%; */
     align-content: center;
-    padding-left: 30px;
+    justify-content: center;
+    /* padding-left: 70px; */
 }
 .banner-text li{
     list-style: none;
+}
+.higher-text-container h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.higher-text-container h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .banner-image{
     width: 50%;
@@ -106,15 +117,18 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
-.list-icon-container{
+.list-icon-container img span{
     align-items: center;
+    
 }
 .list-icon{
 color: #534C64;
-/* text-align: center; */
+justify-content: left;
+align-items: center;
 font-size: 20px;
 font-weight: 500;
-margin-bottom: 3px;
+margin-bottom: 5px;
+
 }
 .btn-container{
     margin-top: 20px;
@@ -126,6 +140,7 @@ margin-bottom: 3px;
 font-size: 20px;
 font-weight: 600;
 padding: 10px 20px;
+border: none;
 border-radius: 48px;
 background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
@@ -134,6 +149,7 @@ background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 font-size: 20px;
 font-weight: 600;
 padding: 10px 20px;
+border: none;
 border-radius: 48px;
 background: #4EC5F7;
 
@@ -290,7 +306,7 @@ background-clip: text;
     justify-content: space-between;
     height: 50px;
     width: 300px;
-    gap: 20px;
+    gap: 15px;
     flex-basis: 220px;
     padding: 20px 0px;
 }
@@ -334,7 +350,7 @@ justify-content: center;
 }
 .about-section ul{
     display: flex;
-    gap: 50px;
+    gap: 20px;
     justify-content: center;
     
 }
@@ -348,23 +364,23 @@ justify-content: center;
 }
 .terms-condition ul{
     display: flex;
-    gap: 50px;
+    gap: 10px;
     justify-content: center;
 }
 .terms-condition ul li{
     list-style: none;
-    padding: 0px 20px;
+    padding: 0px 5px;
     
 }
 .footer-image {
-    gap: 20px;
+    gap: 10px;
     margin: 30px 0px;
 }
 .footer-image img{
     height: 40px;
     width: 50px;
     margin-left: 50px; 
-    padding: 20px;
+    padding: 10px;
     align-items: center;
 }
 .footer-icon{
