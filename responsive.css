@@ -47,7 +47,22 @@
     display: block;
     margin: 0 auto;
     }
+    /* play button */
+    
+/* .play-button p {
+    color: white;
+  }
+  .play-icon img{
+    width: 50%;
+  }
+    .play-button-container :hover {
+        opacity: 0;
+      } */
+      
 }
+
+/* play button */
+
 
 
 /* for tablet or medium screen */
