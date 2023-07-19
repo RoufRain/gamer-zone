@@ -80,21 +80,32 @@
      /* games type container  */
      .games-type-container{
        width: 100%;
-       grid-template-columns: repeat(3, 1fr);
+       justify-content: center;
+       align-items: center;
        
      } 
      .games-type{
         flex-basis: 150px;
         width: 300px; 
         height: 80px;
-        /* flex-direction: column;
-        gap: 10px;
-    width: 20%; */
      }
-     .type{
-        
-       
-     }
+
+    .footer-container{
+        flex-direction: column;
+    }
+    .about-section ul{
+        flex-wrap: wrap;
+    } 
+    .terms-condition ul{
+        flex-wrap: wrap;
+    }
+    .footer-image img{
+        flex-wrap: wrap;
+        align-content: center;
+    } 
+    .copy-write{
+        flex-wrap: wrap;
+    }
 
 
 
